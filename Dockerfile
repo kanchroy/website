@@ -1,3 +1,3 @@
 FROM hshar/webapp
-Add . /var/www/html
-
+RUN rm /var/www/html
+Add ./index.html /var/www/html
